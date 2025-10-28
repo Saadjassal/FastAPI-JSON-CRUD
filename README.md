@@ -1,7 +1,6 @@
 ## 📚 Library Management System (FastAPI + JSON CRUD)
 
-A simple FastAPI project that performs **Create, Read, Update, and Delete (CRUD)** operations on a JSON file — no database needed!
-Perfect for beginners learning **FastAPI**, **APIs**, and **basic backend concepts**.
+A simple FastAPI project that performs **Create, Read, Update, and Delete (CRUD)** operations on a JSON file.
 
 ---
 
