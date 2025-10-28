@@ -29,7 +29,7 @@ Perfect for beginners learning **FastAPI**, **APIs**, and **basic backend concep
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<your-username>/fastapi-json-crud.git
+   git clone https://github.com/Saadjassal/FastAPI-JSON-CRUD.git
    cd fastapi-json-crud
    ```
 
