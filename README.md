@@ -6,20 +6,20 @@ A simple FastAPI project that performs **Create, Read, Update, and Delete (CRUD)
 
 ### 🚀 Features
 
-* 🟢 **Add new records** (books)
-* 🔵 **Read all data**
-* 🟠 **Update existing records**
-* 🔴 **Delete records**
-* 💾 Data is stored in a simple `data.json` file
-* 🌐 Interactive Swagger UI for testing endpoints
+- 🟢 **Add new records** (books)
+- 🔵 **Read all data**
+- 🟠 **Update existing records**
+- 🔴 **Delete records**
+- 💾 Data is stored in a simple `data.json` file
+- 🌐 Interactive Swagger UI for testing endpoints
 
 ---
 
 ### 🛠️ Tech Stack
 
-* **FastAPI** — modern Python web framework
-* **Uvicorn** — ASGI server for running the app
-* **JSON** — lightweight file-based storage
+- **FastAPI** — modern Python web framework
+- **Uvicorn** — ASGI server for running the app
+- **JSON** — lightweight file-based storage
 
 ---
 
@@ -62,10 +62,10 @@ Once the server starts, open your browser and visit:
 
 There you can:
 
-* `POST /books` → Add a new book
-* `GET /books` → View all books
-* `PUT /books/{id}` → Update a book
-* `DELETE /books/{id}` → Delete a book
+- `POST /books` → Add a new book
+- `GET /books` → View all books
+- `PUT /books/{id}` → Update a book
+- `DELETE /books/{id}` → Delete a book
 
 ---
 
@@ -88,7 +88,7 @@ There you can:
 
 ---
 
-###  Example Workflow
+### Example Workflow
 
 1. Add a new book using the Swagger UI
 2. View all books with `GET /books`
@@ -97,10 +97,10 @@ There you can:
 
 ---
 
-###  Contributing
+### Contributing
 
 Feel free to fork this repo, make changes, and open a pull request.
-Suggestions and improvements are always welcome! 
+Suggestions and improvements are always welcome!
 
 ---
 
