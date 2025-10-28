@@ -4,18 +4,18 @@ A simple FastAPI project that performs **Create, Read, Update, and Delete (CRUD)
 
 ---
 
-### 🚀 Features
+###  Features
 
-- 🟢 **Add new records** (books)
-- 🔵 **Read all data**
-- 🟠 **Update existing records**
-- 🔴 **Delete records**
-- 💾 Data is stored in a simple `data.json` file
-- 🌐 Interactive Swagger UI for testing endpoints
+-  **Add new records** (books)
+-  **Read all data**
+-  **Update existing records**
+-  **Delete records**
+-  Data is stored in a simple `data.json` file
+-  Interactive Swagger UI for testing endpoints
 
 ---
 
-### 🛠️ Tech Stack
+###  Tech Stack
 
 - **FastAPI** — modern Python web framework
 - **Uvicorn** — ASGI server for running the app
@@ -23,7 +23,7 @@ A simple FastAPI project that performs **Create, Read, Update, and Delete (CRUD)
 
 ---
 
-### ⚙️ Installation & Setup
+###  Installation & Setup
 
 1. **Clone the repository**
 
@@ -55,7 +55,7 @@ A simple FastAPI project that performs **Create, Read, Update, and Delete (CRUD)
 
 ---
 
-### 🧭 How to Use (Swagger UI)
+###  How to Use (Swagger UI)
 
 Once the server starts, open your browser and visit:
 👉 **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)**
@@ -69,7 +69,7 @@ There you can:
 
 ---
 
-### 📁 Example JSON Format
+###  Example JSON Format
 
 ```json
 [
@@ -104,7 +104,7 @@ Suggestions and improvements are always welcome!
 
 ---
 
-### 🧑‍💻 Author
+###  Author
 
 **Saad Shahbaz**
 📍 Pakistan
