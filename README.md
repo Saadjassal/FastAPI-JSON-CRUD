@@ -30,7 +30,7 @@ Perfect for beginners learning **FastAPI**, **APIs**, and **basic backend concep
 
    ```bash
    git clone https://github.com/Saadjassal/FastAPI-JSON-CRUD.git
-   cd fastapi-json-crud
+   cd FastAPI-JSON-CRUD
    ```
 
 2. **Create and activate a virtual environment**
