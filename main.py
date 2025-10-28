@@ -1,16 +1,13 @@
 from fastapi import FastAPI, Body
-
-app = FastAPI()
-
-@app.get("/")
-def root():
-    return {"message": "Welcome to FastAPI JSON CRUD App"}
-
 import json
 import os
 
+
+
+app = FastAPI()
 Data_file = "data.json"
 
+#-----Helper Functions-----
 # For Reading Data form Json File
 def read_data():
     if not os.path.exists(Data_file):
@@ -24,14 +21,20 @@ def write_data(data):
     with open(Data_file, "w") as f:
         json.dump(data, f, indent=4)
         
-@app.get("/test")
-def test_json():
-    data = read_data()
-    return {"message": "file read successfully", "data": data}
+#-----Routes-----
+@app.get("/")
+def root():
+    return {"message": "FastAPI Library Management System"}
 
 @app.post("/books")
 def add_book(book: dict = Body(...)):
     data = read_data()
+    
+    #Duplicate id check:
+    for existing_id in data:
+        if existing_id.get("id") == book.get("id"):
+            return {"error": f"Book with Id {book['id']} already exists"}
+        
     data.append(book)
     write_data(data)
     return {"Message": "book added successfully", "book": book}
