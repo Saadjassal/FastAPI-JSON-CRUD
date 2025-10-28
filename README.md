@@ -110,7 +110,3 @@ Suggestions and improvements are always welcome!
 **Saad Shahbaz**
 📍 Pakistan
 🌐 [GitHub Profile](https://github.com/Saadjassal)
-
----
-
-Would you like me to slightly tailor this README so it mentions *“Created as my first FastAPI learning project”* (for a more personal touch on your GitHub profile)?
